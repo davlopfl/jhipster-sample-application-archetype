@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "SampleAppArchetype",
+    "packageName": "com.acn.innolab.application",
+    "packageFolder": "com/acn/innolab/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mssql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "YThiNjY5ZGNkMTVjMTAwYzRiYmIwMWEwNjdkZmNmYzhhZDZjM2IxNTNhNmFmZmEyZWM5MGFmNmI1MzA0ZmQxN2EwOTdkYWYzN2JjYmIwMjNmZDIzOTZmMDY3ZGU2YTlhNzhlY2E3YTJkNzU0MDY4M2M0YjNhOTM2YThjYTgzZmY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "davlopfl",
+  "repository-name": "jhipster-sample-application-archetype"
+}
